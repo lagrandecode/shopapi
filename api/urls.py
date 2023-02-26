@@ -5,4 +5,5 @@ from api import views
 
 urlpatterns = [
     path('',views.shop_list), 
+    path('api/<int:pk>/',views.shop_detail)
 ]
